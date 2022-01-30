@@ -1,0 +1,28 @@
+{
+  "name": "cookiechain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ganache": "ganache-cli --networkId $npm_package_config_ganache_networkId --allowUnlimitedContractSize --gasLimit $npm_package_config_ganache_gasLimit --gasPrice $npm_package_config_ganache_gasPrice --mnemonic \"$MNEMONIC\""
+  },
+  "config": {
+    "ganache": {
+      "networkId": 3431,
+      "gasPrice": 25000000000,
+      "gasLimit": 6500000
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.4.23"
+  }
+}

@@ -1,0 +1,11 @@
+.mdata #mdata{
+    width: 50%;
+    border: 5px #b6b3b0;
+    float: right;
+}
+
+.container {
+    width: 50%;
+    border: 5px solid #dbd9d6;
+    float: left;
+}
